@@ -8,14 +8,3 @@
     var instances = M.Collapsible.init(elems, options);
   });
   
-  let supportsTouch = false;
-if ('ontouchstart' in window) // iOS & android
-    supportsTouch = true;
-else if (window.navigator.msPointerEnabled) // Win8
-    supportsTouch = true;
-else if ('ontouchstart' in document.documentElement) // Controversal way to check touch support
-    supportsTouch = true;
-
-if (supportsTouch) {
-    console.log('touch device');
-}

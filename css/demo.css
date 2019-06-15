@@ -84,7 +84,7 @@ a:focus {
 	content: "\e004";
 }
 
-/* Demo Buttons Style */
+ Demo Buttons Style 
 .codrops-demos {
 	padding: 2em 0 3em;
 }
@@ -111,18 +111,6 @@ a:focus {
 	color: #fff;
 }
 
-/* Related demos */
-
-.codrops-related {
-	padding-bottom: 2em;
-	color: rgba(0,0,0,0.4);
-}
-
-.codrops-related a {
-	display: inline-block;
-	margin-top: 0.5em;
-}
-
 @media screen and (max-width: 30em) {
 	body {
 		font-size: 90%;
@@ -140,3 +128,4 @@ a:focus {
 		max-width: 100%;
 	}
 }
+
